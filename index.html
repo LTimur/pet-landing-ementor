@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-mentor</title>
+  </head>
+
+  <body class="page">
+    <header class="page__header page-header">
+      <nav class="page__nav main-navigation main-navigation--vertical">
+        <a class="main-navigation__logo logo logo--theme-light">
+          <svg
+            class="logo__img"
+            viewBox="0 0 170 22"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M43.55 12.37v5.83h9.57v3.4H40V0h12.96v3.4h-9.41V9h8.64v3.36h-8.64zm24.24 1.45H56.37v-3.2h11.42v3.2zM88.98 0h3.8v21.6h-3.55V6.2l-6.57 10.86h-.44L75.65 6.17V21.6H72.1V0h3.83l6.5 10.8L88.99 0zm22.8 15.3H99.49c.25 1.16.8 2.05 1.67 2.69.89.64 1.98.96 3.27.96 1.75 0 3.08-.64 3.98-1.92l2.75 1.6c-1.5 2.25-3.75 3.37-6.76 3.37a8.35 8.35 0 01-6.08-2.28 7.9 7.9 0 01-2.31-5.83c0-2.29.76-4.21 2.28-5.77a7.77 7.77 0 015.86-2.35c2.25 0 4.1.8 5.56 2.38a8.2 8.2 0 012.2 5.77c0 .4-.05.87-.13 1.38zm-12.32-2.7h9.08a4.3 4.3 0 00-4.41-3.8c-1.24 0-2.27.34-3.1 1.02a4.6 4.6 0 00-1.57 2.78zm23.49-6.83c1.8 0 3.22.58 4.3 1.73 1.08 1.13 1.63 2.67 1.63 4.63v9.47h-3.34v-9.13c0-1.16-.3-2.04-.92-2.66a3.42 3.42 0 00-2.53-.92 3.7 3.7 0 00-2.87 1.14c-.7.74-1.05 1.84-1.05 3.3v8.27h-3.34V6.17h3.34v1.98c1.03-1.59 2.62-2.38 4.78-2.38zm18.13.4v3.21h-3.83v7.4c0 .64.14 1.1.43 1.4.29.26.71.42 1.27.46.57.02 1.28 0 2.13-.03v2.99c-2.55.3-4.39.1-5.5-.65-1.1-.76-1.66-2.15-1.66-4.16V9.38h-2.84v-3.2h2.84V2.83l3.33-.99v4.32h3.83zm15.44 13.49a7.85 7.85 0 01-5.77 2.34c-2.28 0-4.2-.78-5.77-2.34a7.86 7.86 0 01-2.38-5.78c0-2.26.8-4.18 2.38-5.76a7.85 7.85 0 015.77-2.35c2.28 0 4.2.78 5.77 2.35a7.86 7.86 0 012.38 5.77c0 2.26-.8 4.18-2.38 5.77zm-10.58-5.78a4.73 4.73 0 004.81 4.88 4.73 4.73 0 004.81-4.88 4.73 4.73 0 00-4.8-4.87 4.73 4.73 0 00-4.81 4.88zm19.31-7.71v2.6c.84-1.92 2.43-2.88 4.75-2.88V9.5a4.96 4.96 0 00-3.33.93c-.95.68-1.42 1.8-1.42 3.4v7.77h-3.34V6.17h3.34z"
+            />
+            <path
+              d="M0 9.26A9.3 9.3 0 019.33 0H28v1.16a9.3 9.3 0 01-9.33 9.26H0V9.26zm0 9.27c0-3.2 2.61-5.8 5.83-5.8H7a4.65 4.65 0 014.67 4.64A4.65 4.65 0 017 22H0v-3.47zm16.33 0c0-3.2 2.62-5.8 5.84-5.8h1.16A4.65 4.65 0 0128 17.38 4.65 4.65 0 0123.33 22h-7v-3.47z"
+              fill="#FA9F42"
+            />
+          </svg>
+        </a>
+        <ul class="main-navigation__site-navigation site-navigation">
+          <li class="site-navigation__item">
+            <a class="site-navigation__link" href="#">О нас</a>
+          </li>
+          <li class="site-navigation__item">
+            <a
+              class="site-navigation__link site-navigation__link--active"
+              href="#"
+              >Платформа</a
+            >
+          </li>
+          <li class="site-navigation__item">
+            <a class="site-navigation__link" href="card.html">Курсы</a>
+          </li>
+          <li class="site-navigation__item">
+            <a class="site-navigation__link" href="#">Лекции</a>
+          </li>
+          <li class="site-navigation__item">
+            <a class="site-navigation__link" href="#">Тарифы</a>
+          </li>
+          <li class="site-navigation__item">
+            <a class="site-navigation__link" href="#">Блог</a>
+          </li>
+          <li class="site-navigation__item">
+            <a class="site-navigation__link" href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="page__content">
+      <h1 class="visually-hidden">
+        Главная страница сайта образовательной онлайн-платформы E-Mentor
+      </h1>
+      <section class="promo">
+        <div class="promo__content">
+          <div class="offer offer--align-left">
+            <ul class="offer__social social social--vertical">
+              <li class="social__item">
+                <a class="social__link" href="#">
+                  <svg
+                    class="social__img social__img--theme-light"
+                    viewBox="0 0 22 22"
+                    width="22"
+                    height="22"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M11 22a11 11 0 10-1.92-.17v.04A11.36 11.36 0 0011 22zm-.1 0c.56 0 1.1-.05 1.63-.13v-7.5h2.57l.49-3.11h-3.06V9.25c0-.85.42-1.68 1.8-1.68h1.38V4.92s-1.26-.2-2.46-.2c-2.52 0-4.17 1.48-4.17 4.17v2.37h-2.8v3.1h2.8v7.47c.6.1 1.2.16 1.82.17z"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li class="social__item">
+                <a class="social__link" href="#">
+                  <svg
+                    class="social__img social__img--theme-light"
+                    viewBox="0 0 22 22"
+                    width="22"
+                    height="22"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M.63 3.17C0 4.4 0 6.03 0 9.28v3.44c0 3.25 0 4.87.63 6.11a5.8 5.8 0 002.54 2.54C4.4 22 6.03 22 9.28 22h3.44c3.25 0 4.87 0 6.11-.63a5.8 5.8 0 002.54-2.54c.63-1.24.63-2.86.63-6.11V9.28c0-3.25 0-4.87-.63-6.11A5.8 5.8 0 0018.83.63C17.6 0 15.97 0 12.72 0H9.28C6.03 0 4.41 0 3.17.63A5.8 5.8 0 00.63 3.17zM11 14.93a3.93 3.93 0 100-7.86 3.93 3.93 0 000 7.86zM13.36 11a2.36 2.36 0 11-4.72 0 2.36 2.36 0 014.72 0zm-9.7-5.28c-.52 1-.52 2.33-.52 4.97v.62c0 2.64 0 3.96.52 4.97.45.89 1.17 1.61 2.06 2.06 1 .52 2.33.52 4.97.52h.62c2.64 0 3.96 0 4.97-.52a4.71 4.71 0 002.06-2.06c.52-1 .52-2.33.52-4.97v-.62c0-2.64 0-3.96-.52-4.97a4.71 4.71 0 00-2.06-2.06c-1-.52-2.33-.52-4.97-.52h-.62c-2.64 0-3.96 0-4.97.52a4.71 4.71 0 00-2.06 2.06zm7.03-1h.62c1.35 0 2.27 0 2.97.05a3.4 3.4 0 011.29.29c.6.3 1.07.78 1.37 1.37.13.25.23.6.29 1.29.05.7.06 1.62.06 2.97v.62c0 1.35 0 2.27-.06 2.97a3.4 3.4 0 01-.29 1.29c-.3.6-.78 1.07-1.37 1.37-.25.13-.6.23-1.29.29-.7.05-1.62.06-2.97.06h-.62c-1.35 0-2.27 0-2.97-.06a3.4 3.4 0 01-1.29-.29c-.6-.3-1.07-.78-1.37-1.37a3.4 3.4 0 01-.29-1.29c-.05-.7-.06-1.62-.06-2.97v-.62c0-1.35 0-2.27.06-2.97a3.4 3.4 0 01.29-1.29c.3-.6.78-1.07 1.37-1.37.25-.13.6-.23 1.29-.29.7-.05 1.62-.06 2.97-.06zm5.81 1.96a1.18 1.18 0 11-2.36 0 1.18 1.18 0 012.36 0z"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li class="social__item">
+                <a class="social__link" href="#">
+                  <svg
+                    class="social__img social__img--theme-light"
+                    viewBox="0 0 22 22"
+                    width="22"
+                    height="22"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M9.28 0h3.44c3.25 0 4.87 0 6.11.63a5.8 5.8 0 012.54 2.54C22 4.4 22 6.03 22 9.28v3.44c0 3.25 0 4.87-.63 6.11a5.8 5.8 0 01-2.54 2.54c-1.24.63-2.86.63-6.11.63H9.28c-3.25 0-4.87 0-6.11-.63a5.8 5.8 0 01-2.54-2.54C0 17.6 0 15.97 0 12.72V9.28c0-3.25 0-4.87.63-6.11A5.8 5.8 0 013.17.63C4.4 0 6.03 0 9.28 0zm7.05 12.14c-.1.23-.06.46.11.7l.7.73c.71.74 1.45 1.5 1.68 2.24.08.47-.3.64-.7.64l-2.09.04a.87.87 0 01-.46-.05c-.6-.2-1-.67-1.4-1.15-.25-.31-.5-.62-.82-.86-.15-.12-.34-.2-.52-.1-.42.21-.43.63-.44 1.05 0 .32-.01.64-.2.88-.23.27-.7.23-1.08.2h-.29c-3.91.13-6.47-5.48-7.64-8.38-.13-.4.09-.59.48-.59l2.24-.01a.7.7 0 01.56.43c.33.82 1.55 3.78 2.31 3.78s.57-3.02.31-3.58c-.14-.2-.37-.32-.7-.37-.07-.02-.05-.08.05-.21.34-.44 2.44-.57 3.37-.35.18.04.36.13.44.32.18.43.14 1.16.1 1.9-.06.9-.11 1.83.26 2.23.15.04.23.04.36-.06.96-.98 1.62-2.5 2.16-3.74a.46.46 0 01.36-.31h3.04c1 0-.45 2.06-1.44 3.46-.38.54-.69.98-.75 1.16z"
+                    />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+            <img class="offer__img offer__img--left" src="img/top1.png" alt="">
+          </div>
+          <div class="offer offer--align-center">
+            <h2 class="offer__title">Образовательная онлайн-платформа</h2>
+            <p class="offer__description">
+              Курсы и видео-лекции по дизайну, копирайтингу, SMM, таргету и
+              многим другим направлениям
+            </p>
+            <button class="offer__button button button--accent" type="button">
+              Все направления
+            </button>
+          </div>   
+          <div class="offer offer--align-right">
+            <a class="offer__link-down" href="#">Листайте вниз</a>
+            <img class="offer__img offer__img--right" src="img/top2.png" alt="">
+          </div>
+        </div>
+      </section>
+      <section class="statistics">
+        <dl class="statistics__list">
+          <div class="statistics__item">
+            <dt class="statistics__indicator">100+</dt>
+            <dd class="statistics__description">
+              теоретических и практических курсов для разного уровня
+            </dd>
+          </div>
+          <div class="statistics__item">
+            <dt class="statistics__indicator">3 000</dt>
+            <dd class="statistics__description">
+              часов видео-лекций и вебинаров от лучших преподавателей
+            </dd>
+          </div>
+          <div class="statistics__item">
+            <dt class="statistics__indicator">15</dt>
+            <dd class="statistics__description">
+              направлений обучения востребованным профессиям
+            </dd>
+          </div>
+          <div class="statistics__item">
+            <dt class="statistics__indicator">2 000</dt>
+            <dd class="statistics__description">
+              учеников уже занимаются на нашей платформе
+            </dd>
+          </div>
+        </dl>
+      </section>
+      <section class="teachers card card--direction-reverse">
+        <div
+          class="card__description-column teachers__description-column offer"
+        >
+          <h2 class="offer__title">Учитесь у лучших</h2>
+          <p class="offer__description">
+            Наши преподаватели – профессионалы, которые добились успеха в своей
+            области. Лид-дизайнеры известных студий, маркетологи крупнейших
+            компаний, редакторы популярных медиа: получайте опыт из первых рук,
+            в любое время.
+          </p>
+          <p class="offer__description">
+            Кураторы курсов – наши лучшие выпускники, будут помогать и
+            поддерживать вас на протяжении всего обучения.
+          </p>
+          <button class="offer__button button" type="button">
+            Все преподаватели
+          </button>
+        </div>
+        <div class="teachers__img-column card__img-column">
+          <figure class="teachers__card">
+            <img
+              class="teachers__img teachers__img--cropping-bottom-left"
+              src="img/photo-5.jpg"
+              width="170"
+              height="170"
+              alt=""
+            />
+            <figcaption class="teachers__caption">
+              Катя, ведущий дизайнер TailGroup
+            </figcaption>
+          </figure>
+          <figure class="teachers__card">
+            <img
+              class="teachers__img teachers__img--cropping-top-left teachers__img--cropping-bottom-right"
+              src="img/photo-6.jpg"
+              width="170"
+              height="170"
+              alt=""
+            />
+            <figcaption class="teachers__caption">
+              Марина, маркетолог Headers Market
+            </figcaption>
+          </figure>
+          <figure class="teachers__card">
+            <img
+              class="teachers__img teachers__img--cropping-bottom-right"
+              src="img/photo-1.jpg"
+              width="170"
+              height="170"
+              alt=""
+            />
+            <figcaption class="teachers__caption">
+              Сава, PR-менеджер Central Media
+            </figcaption>
+          </figure>
+          <figure class="teachers__card">
+            <img
+              class="teachers__img teachers__img--cropping-top-left"
+              src="img/photo-2.jpg"
+              width="170"
+              height="170"
+              alt=""
+            />
+            <figcaption class="teachers__caption">
+              Паша, основатель LeadCompany
+            </figcaption>
+          </figure>
+          <figure class="teachers__card">
+            <img
+              class="teachers__img teachers__img--cropping-top-left teachers__img--cropping-bottom-right"
+              src="img/photo-3.jpg"
+              width="170"
+              height="170"
+              alt=""
+            />
+            <figcaption class="teachers__caption">
+              Саша, главный редактор Just Journal
+            </figcaption>
+          </figure>
+          <figure class="teachers__card">
+            <img
+              class="teachers__img teachers__img--cropping-top-right"
+              src="img/photo-4.jpg"
+              width="170"
+              height="170"
+              alt=""
+            />
+            <figcaption class="teachers__caption">
+              Лёня, ведущий разработчик Ymail
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+      <section class="product card">
+        <div class="card__description-column product__description-column offer">
+          <h2 class="offer__title">Выбирайте свой формат обучения</h2>
+          <p class="offer__description">
+            Смотрите видео-лекции в удобное для вас время, обучайтесь на
+            тренажере, участвуйте в интенсивных воркшопах с командой или
+            проходите курс с гибким расписанием. На нашей платформе каждый
+            найдет подходящий формат.
+          </p>
+          <button class="offer__button button button--accent" type="button">
+            Все курсы
+          </button>
+        </div>
+        <div class="card__img-column product__img-column">
+          <img
+            class="product__img"
+            src="img/photo.jpg"
+            width="470"
+            height="332"
+            alt=""
+          />
+        </div>
+      </section>
+      <section class="courses">
+        <h2 class="courses__title">Популярные курсы</h2>
+        <ul class="courses__list">
+          <li class="courses__item">
+            <img
+              class="courses__img"
+              src="img/pic-3.png"
+              width="230"
+              height="155"
+              alt=""
+            />
+            <a class="courses__link" href="#">Motion design</a>
+          </li>
+          <li class="courses__item">
+            <img
+              class="courses__img"
+              src="img/pic-2.png"
+              width="230"
+              height="155"
+              alt=""
+            />
+            <a class="courses__link" href="#">Таргет в Instagram</a>
+          </li>
+          <li class="courses__item">
+            <img
+              class="courses__img"
+              src="img/pic-1.png"
+              width="230"
+              height="155"
+              alt=""
+            />
+            <a class="courses__link" href="#">Эффектные презентации</a>
+          </li>
+          <li class="courses__item">
+            <img
+              class="courses__img"
+              src="img/pic.png"
+              width="230"
+              height="155"
+              alt=""
+            />
+            <a class="courses__link" href="#">SMM-стратегия</a>
+          </li>
+        </ul>
+        <button class="courses__button button" type="button">Все курсы</button>
+      </section>
+    </main>
+    <aside class="aside">
+      <div class="aside__content">
+        <div class="banner">
+          <div class="banner__content offer">
+            <h2 class="offer__title">Присоединяйтесь к E-Mentor сейчас</h2>
+            <p class="offer__description">
+              Выберите подходящий тариф и формат обучения, пройдите 2 урока и мы
+              подарим вам дополнительные лекции по любому направлению бесплатно!
+            </p>
+            <a class="offer__button button button--accent" href="#"
+              >Выбрать тариф</a
+            >
+          </div>
+          <img
+            class="banner__cover"
+            src="img/bg-banner.png"
+            width="1440"
+            height="578"
+            alt=""
+          />
+        </div>
+      </div>
+    </aside>
+    <footer class="page__footer page-footer">
+      <div class="page-footer__row">
+        <div class="page-footer__column">
+          <a class="page-footer__logo logo" href="#">
+            <svg
+              class="logo__img"
+              viewBox="0 0 170 22"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M43.55 12.37v5.83h9.57v3.4H40V0h12.96v3.4h-9.41V9h8.64v3.36h-8.64zm24.24 1.45H56.37v-3.2h11.42v3.2zM88.98 0h3.8v21.6h-3.55V6.2l-6.57 10.86h-.44L75.65 6.17V21.6H72.1V0h3.83l6.5 10.8L88.99 0zm22.8 15.3H99.49c.25 1.16.8 2.05 1.67 2.69.89.64 1.98.96 3.27.96 1.75 0 3.08-.64 3.98-1.92l2.75 1.6c-1.5 2.25-3.75 3.37-6.76 3.37a8.35 8.35 0 01-6.08-2.28 7.9 7.9 0 01-2.31-5.83c0-2.29.76-4.21 2.28-5.77a7.77 7.77 0 015.86-2.35c2.25 0 4.1.8 5.56 2.38a8.2 8.2 0 012.2 5.77c0 .4-.05.87-.13 1.38zm-12.32-2.7h9.08a4.3 4.3 0 00-4.41-3.8c-1.24 0-2.27.34-3.1 1.02a4.6 4.6 0 00-1.57 2.78zm23.49-6.83c1.8 0 3.22.58 4.3 1.73 1.08 1.13 1.63 2.67 1.63 4.63v9.47h-3.34v-9.13c0-1.16-.3-2.04-.92-2.66a3.42 3.42 0 00-2.53-.92 3.7 3.7 0 00-2.87 1.14c-.7.74-1.05 1.84-1.05 3.3v8.27h-3.34V6.17h3.34v1.98c1.03-1.59 2.62-2.38 4.78-2.38zm18.13.4v3.21h-3.83v7.4c0 .64.14 1.1.43 1.4.29.26.71.42 1.27.46.57.02 1.28 0 2.13-.03v2.99c-2.55.3-4.39.1-5.5-.65-1.1-.76-1.66-2.15-1.66-4.16V9.38h-2.84v-3.2h2.84V2.83l3.33-.99v4.32h3.83zm15.44 13.49a7.85 7.85 0 01-5.77 2.34c-2.28 0-4.2-.78-5.77-2.34a7.86 7.86 0 01-2.38-5.78c0-2.26.8-4.18 2.38-5.76a7.85 7.85 0 015.77-2.35c2.28 0 4.2.78 5.77 2.35a7.86 7.86 0 012.38 5.77c0 2.26-.8 4.18-2.38 5.77zm-10.58-5.78a4.73 4.73 0 004.81 4.88 4.73 4.73 0 004.81-4.88 4.73 4.73 0 00-4.8-4.87 4.73 4.73 0 00-4.81 4.88zm19.31-7.71v2.6c.84-1.92 2.43-2.88 4.75-2.88V9.5a4.96 4.96 0 00-3.33.93c-.95.68-1.42 1.8-1.42 3.4v7.77h-3.34V6.17h3.34z"
+              />
+              <path
+                d="M0 9.26A9.3 9.3 0 019.33 0H28v1.16a9.3 9.3 0 01-9.33 9.26H0V9.26zm0 9.27c0-3.2 2.61-5.8 5.83-5.8H7a4.65 4.65 0 014.67 4.64A4.65 4.65 0 017 22H0v-3.47zm16.33 0c0-3.2 2.62-5.8 5.84-5.8h1.16A4.65 4.65 0 0128 17.38 4.65 4.65 0 0123.33 22h-7v-3.47z"
+                fill="#FA9F42"
+              />
+            </svg>
+          </a>
+          <p class="page-footer__description">
+            Образовательная онлайн-платформа для развития и тренировки навыков в
+            сфере информационных технологий
+          </p>
+          <ul class="page-footer__social social">
+            <li class="social__item">
+              <a class="social__link" href="#">
+                <svg
+                  class="social__img"
+                  viewBox="0 0 22 22"
+                  width="22"
+                  height="22"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M11 22a11 11 0 10-1.92-.17v.04A11.36 11.36 0 0011 22zm-.1 0c.56 0 1.1-.05 1.63-.13v-7.5h2.57l.49-3.11h-3.06V9.25c0-.85.42-1.68 1.8-1.68h1.38V4.92s-1.26-.2-2.46-.2c-2.52 0-4.17 1.48-4.17 4.17v2.37h-2.8v3.1h2.8v7.47c.6.1 1.2.16 1.82.17z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#">
+                <svg
+                  class="social__img"
+                  viewBox="0 0 22 22"
+                  width="22"
+                  height="22"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M.63 3.17C0 4.4 0 6.03 0 9.28v3.44c0 3.25 0 4.87.63 6.11a5.8 5.8 0 002.54 2.54C4.4 22 6.03 22 9.28 22h3.44c3.25 0 4.87 0 6.11-.63a5.8 5.8 0 002.54-2.54c.63-1.24.63-2.86.63-6.11V9.28c0-3.25 0-4.87-.63-6.11A5.8 5.8 0 0018.83.63C17.6 0 15.97 0 12.72 0H9.28C6.03 0 4.41 0 3.17.63A5.8 5.8 0 00.63 3.17zM11 14.93a3.93 3.93 0 100-7.86 3.93 3.93 0 000 7.86zM13.36 11a2.36 2.36 0 11-4.72 0 2.36 2.36 0 014.72 0zm-9.7-5.28c-.52 1-.52 2.33-.52 4.97v.62c0 2.64 0 3.96.52 4.97.45.89 1.17 1.61 2.06 2.06 1 .52 2.33.52 4.97.52h.62c2.64 0 3.96 0 4.97-.52a4.71 4.71 0 002.06-2.06c.52-1 .52-2.33.52-4.97v-.62c0-2.64 0-3.96-.52-4.97a4.71 4.71 0 00-2.06-2.06c-1-.52-2.33-.52-4.97-.52h-.62c-2.64 0-3.96 0-4.97.52a4.71 4.71 0 00-2.06 2.06zm7.03-1h.62c1.35 0 2.27 0 2.97.05a3.4 3.4 0 011.29.29c.6.3 1.07.78 1.37 1.37.13.25.23.6.29 1.29.05.7.06 1.62.06 2.97v.62c0 1.35 0 2.27-.06 2.97a3.4 3.4 0 01-.29 1.29c-.3.6-.78 1.07-1.37 1.37-.25.13-.6.23-1.29.29-.7.05-1.62.06-2.97.06h-.62c-1.35 0-2.27 0-2.97-.06a3.4 3.4 0 01-1.29-.29c-.6-.3-1.07-.78-1.37-1.37a3.4 3.4 0 01-.29-1.29c-.05-.7-.06-1.62-.06-2.97v-.62c0-1.35 0-2.27.06-2.97a3.4 3.4 0 01.29-1.29c.3-.6.78-1.07 1.37-1.37.25-.13.6-.23 1.29-.29.7-.05 1.62-.06 2.97-.06zm5.81 1.96a1.18 1.18 0 11-2.36 0 1.18 1.18 0 012.36 0z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#">
+                <svg
+                  class="social__img"
+                  viewBox="0 0 22 22"
+                  width="22"
+                  height="22"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M9.28 0h3.44c3.25 0 4.87 0 6.11.63a5.8 5.8 0 012.54 2.54C22 4.4 22 6.03 22 9.28v3.44c0 3.25 0 4.87-.63 6.11a5.8 5.8 0 01-2.54 2.54c-1.24.63-2.86.63-6.11.63H9.28c-3.25 0-4.87 0-6.11-.63a5.8 5.8 0 01-2.54-2.54C0 17.6 0 15.97 0 12.72V9.28c0-3.25 0-4.87.63-6.11A5.8 5.8 0 013.17.63C4.4 0 6.03 0 9.28 0zm7.05 12.14c-.1.23-.06.46.11.7l.7.73c.71.74 1.45 1.5 1.68 2.24.08.47-.3.64-.7.64l-2.09.04a.87.87 0 01-.46-.05c-.6-.2-1-.67-1.4-1.15-.25-.31-.5-.62-.82-.86-.15-.12-.34-.2-.52-.1-.42.21-.43.63-.44 1.05 0 .32-.01.64-.2.88-.23.27-.7.23-1.08.2h-.29c-3.91.13-6.47-5.48-7.64-8.38-.13-.4.09-.59.48-.59l2.24-.01a.7.7 0 01.56.43c.33.82 1.55 3.78 2.31 3.78s.57-3.02.31-3.58c-.14-.2-.37-.32-.7-.37-.07-.02-.05-.08.05-.21.34-.44 2.44-.57 3.37-.35.18.04.36.13.44.32.18.43.14 1.16.1 1.9-.06.9-.11 1.83.26 2.23.15.04.23.04.36-.06.96-.98 1.62-2.5 2.16-3.74a.46.46 0 01.36-.31h3.04c1 0-.45 2.06-1.44 3.46-.38.54-.69.98-.75 1.16z"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="page-footer__column">
+          <div class="page-footer__navigation service-navigation">
+            <div class="service-navigation__column">
+              <p class="service-navigation__category">Обучение</p>
+              <ul class="service-navigation__list">
+                <li class="service-navigation__item">
+                  <a class="service-navigation__link" href="#">Курсы</a>
+                </li>
+                <li class="service-navigation__item">
+                  <a class="service-navigation__link" href="#">Вебинары</a>
+                </li>
+                <li class="service-navigation__item">
+                  <a class="service-navigation__link" href="#">Тренажеры</a>
+                </li>
+                <li class="service-navigation__item">
+                  <a class="service-navigation__link" href="#">Воркшопы</a>
+                </li>
+              </ul>
+            </div>
+            <div class="service-navigation__column">
+              <p class="service-navigation__category">О нас</p>
+              <ul class="service-navigation__list">
+                <li class="service-navigation__item">
+                  <a class="service-navigation__link" href="#">О платформе</a>
+                </li>
+                <li class="service-navigation__item">
+                  <a class="service-navigation__link" href="#">Преподаватели</a>
+                </li>
+                <li class="service-navigation__item">
+                  <a class="service-navigation__link" href="#">Тарифы</a>
+                </li>
+                <li class="service-navigation__item">
+                  <a class="service-navigation__link" href="#">Отзывы</a>
+                </li>
+              </ul>
+            </div>
+            <div class="service-navigation__column">
+              <p class="service-navigation__category">Контакты</p>
+              <ul class="service-navigation__list">
+                <li class="service-navigation__item">
+                  <a class="service-navigation__link" href="#"
+                    >Связаться с нами</a
+                  >
+                </li>
+                <li class="service-navigation__item">
+                  <a class="service-navigation__link" href="#">Консультация</a>
+                </li>
+                <li class="service-navigation__item">
+                  <a class="service-navigation__link" href="#">Реквизиты</a>
+                </li>
+                <li class="service-navigation__item">
+                  <a class="service-navigation__link" href="#">Поддержка</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="page-footer__column">
+          <p class="page-footer__title">Возникли вопросы?</p>
+          <p class="page-footer__description">
+            Напишите нам на почту
+            <a
+              class="page-footer__link page-footer__link--underline"
+              href="mailto:education@ementor.info"
+              >education@ementor.info</a
+            >
+          </p>
+        </div>
+      </div>
+      <div class="page-footer__row">
+        <div class="page-footer__column">
+          <p class="page-footer__copyright">
+            E-Mentor © 2021 Все права защищены
+          </p>
+        </div>
+        <div class="page-footer__column">
+          <a class="page-footer__link" href="#"
+            >Политика обработки персональных данных</a
+          >
+        </div>
+        <div class="page-footer__column">
+          <a class="page-footer__link" href="#">Публичная оферта</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
