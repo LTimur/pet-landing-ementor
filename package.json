@@ -1,0 +1,20 @@
+{
+  "name": "pet-landing-ementor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass sass/style.scss sass/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LTimur/pet-landing-ementor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LTimur/pet-landing-ementor/issues"
+  },
+  "homepage": "https://github.com/LTimur/pet-landing-ementor#readme"
+}
