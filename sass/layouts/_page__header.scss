@@ -1,0 +1,29 @@
+.page__header {
+    padding-top: 40px;
+}
+
+.page-header_wrapper {
+    display: flex;
+}
+
+.site-navigation {
+    display: flex;
+    
+    .site-navigation__item {
+        list-style: none;
+        font-size: 1.6rem;
+        font-weight: 500;
+        line-height: 1.6rem;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .site-navigation__link {
+        text-decoration: none;
+        padding: 0 40px;
+        cursor: pointer;
+    }
+    
+}
+
+

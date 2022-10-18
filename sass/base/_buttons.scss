@@ -1,0 +1,16 @@
+.button {
+    width: 230px;
+    height: 56px;
+
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    letter-spacing: 0em;
+    text-align: center;
+    background: $color-primary
+
+}
+
+.button--accent {
+    background: $color-additional;
+}

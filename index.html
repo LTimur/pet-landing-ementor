@@ -10,22 +10,8 @@
 
   <body class="page">
     <header class="page__header page-header">
+      <div class="wrapper page-header_wrapper">
       <nav class="page__nav main-navigation main-navigation--vertical">
-        <a class="main-navigation__logo logo logo--theme-light">
-          <svg
-            class="logo__img"
-            viewBox="0 0 170 22"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M43.55 12.37v5.83h9.57v3.4H40V0h12.96v3.4h-9.41V9h8.64v3.36h-8.64zm24.24 1.45H56.37v-3.2h11.42v3.2zM88.98 0h3.8v21.6h-3.55V6.2l-6.57 10.86h-.44L75.65 6.17V21.6H72.1V0h3.83l6.5 10.8L88.99 0zm22.8 15.3H99.49c.25 1.16.8 2.05 1.67 2.69.89.64 1.98.96 3.27.96 1.75 0 3.08-.64 3.98-1.92l2.75 1.6c-1.5 2.25-3.75 3.37-6.76 3.37a8.35 8.35 0 01-6.08-2.28 7.9 7.9 0 01-2.31-5.83c0-2.29.76-4.21 2.28-5.77a7.77 7.77 0 015.86-2.35c2.25 0 4.1.8 5.56 2.38a8.2 8.2 0 012.2 5.77c0 .4-.05.87-.13 1.38zm-12.32-2.7h9.08a4.3 4.3 0 00-4.41-3.8c-1.24 0-2.27.34-3.1 1.02a4.6 4.6 0 00-1.57 2.78zm23.49-6.83c1.8 0 3.22.58 4.3 1.73 1.08 1.13 1.63 2.67 1.63 4.63v9.47h-3.34v-9.13c0-1.16-.3-2.04-.92-2.66a3.42 3.42 0 00-2.53-.92 3.7 3.7 0 00-2.87 1.14c-.7.74-1.05 1.84-1.05 3.3v8.27h-3.34V6.17h3.34v1.98c1.03-1.59 2.62-2.38 4.78-2.38zm18.13.4v3.21h-3.83v7.4c0 .64.14 1.1.43 1.4.29.26.71.42 1.27.46.57.02 1.28 0 2.13-.03v2.99c-2.55.3-4.39.1-5.5-.65-1.1-.76-1.66-2.15-1.66-4.16V9.38h-2.84v-3.2h2.84V2.83l3.33-.99v4.32h3.83zm15.44 13.49a7.85 7.85 0 01-5.77 2.34c-2.28 0-4.2-.78-5.77-2.34a7.86 7.86 0 01-2.38-5.78c0-2.26.8-4.18 2.38-5.76a7.85 7.85 0 015.77-2.35c2.28 0 4.2.78 5.77 2.35a7.86 7.86 0 012.38 5.77c0 2.26-.8 4.18-2.38 5.77zm-10.58-5.78a4.73 4.73 0 004.81 4.88 4.73 4.73 0 004.81-4.88 4.73 4.73 0 00-4.8-4.87 4.73 4.73 0 00-4.81 4.88zm19.31-7.71v2.6c.84-1.92 2.43-2.88 4.75-2.88V9.5a4.96 4.96 0 00-3.33.93c-.95.68-1.42 1.8-1.42 3.4v7.77h-3.34V6.17h3.34z"
-            />
-            <path
-              d="M0 9.26A9.3 9.3 0 019.33 0H28v1.16a9.3 9.3 0 01-9.33 9.26H0V9.26zm0 9.27c0-3.2 2.61-5.8 5.83-5.8H7a4.65 4.65 0 014.67 4.64A4.65 4.65 0 017 22H0v-3.47zm16.33 0c0-3.2 2.62-5.8 5.84-5.8h1.16A4.65 4.65 0 0128 17.38 4.65 4.65 0 0123.33 22h-7v-3.47z"
-              fill="#FA9F42"
-            />
-          </svg>
-        </a>
         <ul class="main-navigation__site-navigation site-navigation">
           <li class="site-navigation__item">
             <a class="site-navigation__link" href="#">О нас</a>
@@ -53,13 +39,30 @@
             <a class="site-navigation__link" href="#">Контакты</a>
           </li>
         </ul>
+        <a class="main-navigation__logo logo logo--theme-light">
+          <svg
+            class="logo__img"
+            viewBox="0 0 170 22"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M43.55 12.37v5.83h9.57v3.4H40V0h12.96v3.4h-9.41V9h8.64v3.36h-8.64zm24.24 1.45H56.37v-3.2h11.42v3.2zM88.98 0h3.8v21.6h-3.55V6.2l-6.57 10.86h-.44L75.65 6.17V21.6H72.1V0h3.83l6.5 10.8L88.99 0zm22.8 15.3H99.49c.25 1.16.8 2.05 1.67 2.69.89.64 1.98.96 3.27.96 1.75 0 3.08-.64 3.98-1.92l2.75 1.6c-1.5 2.25-3.75 3.37-6.76 3.37a8.35 8.35 0 01-6.08-2.28 7.9 7.9 0 01-2.31-5.83c0-2.29.76-4.21 2.28-5.77a7.77 7.77 0 015.86-2.35c2.25 0 4.1.8 5.56 2.38a8.2 8.2 0 012.2 5.77c0 .4-.05.87-.13 1.38zm-12.32-2.7h9.08a4.3 4.3 0 00-4.41-3.8c-1.24 0-2.27.34-3.1 1.02a4.6 4.6 0 00-1.57 2.78zm23.49-6.83c1.8 0 3.22.58 4.3 1.73 1.08 1.13 1.63 2.67 1.63 4.63v9.47h-3.34v-9.13c0-1.16-.3-2.04-.92-2.66a3.42 3.42 0 00-2.53-.92 3.7 3.7 0 00-2.87 1.14c-.7.74-1.05 1.84-1.05 3.3v8.27h-3.34V6.17h3.34v1.98c1.03-1.59 2.62-2.38 4.78-2.38zm18.13.4v3.21h-3.83v7.4c0 .64.14 1.1.43 1.4.29.26.71.42 1.27.46.57.02 1.28 0 2.13-.03v2.99c-2.55.3-4.39.1-5.5-.65-1.1-.76-1.66-2.15-1.66-4.16V9.38h-2.84v-3.2h2.84V2.83l3.33-.99v4.32h3.83zm15.44 13.49a7.85 7.85 0 01-5.77 2.34c-2.28 0-4.2-.78-5.77-2.34a7.86 7.86 0 01-2.38-5.78c0-2.26.8-4.18 2.38-5.76a7.85 7.85 0 015.77-2.35c2.28 0 4.2.78 5.77 2.35a7.86 7.86 0 012.38 5.77c0 2.26-.8 4.18-2.38 5.77zm-10.58-5.78a4.73 4.73 0 004.81 4.88 4.73 4.73 0 004.81-4.88 4.73 4.73 0 00-4.8-4.87 4.73 4.73 0 00-4.81 4.88zm19.31-7.71v2.6c.84-1.92 2.43-2.88 4.75-2.88V9.5a4.96 4.96 0 00-3.33.93c-.95.68-1.42 1.8-1.42 3.4v7.77h-3.34V6.17h3.34z"
+            />
+            <path
+              d="M0 9.26A9.3 9.3 0 019.33 0H28v1.16a9.3 9.3 0 01-9.33 9.26H0V9.26zm0 9.27c0-3.2 2.61-5.8 5.83-5.8H7a4.65 4.65 0 014.67 4.64A4.65 4.65 0 017 22H0v-3.47zm16.33 0c0-3.2 2.62-5.8 5.84-5.8h1.16A4.65 4.65 0 0128 17.38 4.65 4.65 0 0123.33 22h-7v-3.47z"
+              fill="#FA9F42"
+            />
+          </svg>
+        </a>
       </nav>
+    </div>
     </header>
     <main class="page__content">
       <h1 class="visually-hidden">
         Главная страница сайта образовательной онлайн-платформы E-Mentor
       </h1>
       <section class="promo">
+        <div class="wrapper">
         <div class="promo__content">
           <div class="offer offer--align-left">
             <ul class="offer__social social social--vertical">
@@ -132,8 +135,10 @@
             <img class="offer__img offer__img--right" src="img/top2.png" alt="">
           </div>
         </div>
+      </div>
       </section>
       <section class="statistics">
+        <div class="wrapper">
         <dl class="statistics__list">
           <div class="statistics__item">
             <dt class="statistics__indicator">100+</dt>
@@ -160,8 +165,10 @@
             </dd>
           </div>
         </dl>
+      </div>
       </section>
       <section class="teachers card card--direction-reverse">
+        <div class="wrapper">
         <div
           class="card__description-column teachers__description-column offer"
         >
@@ -254,8 +261,10 @@
             </figcaption>
           </figure>
         </div>
+      </div>
       </section>
       <section class="product card">
+        <div class="wrapper">
         <div class="card__description-column product__description-column offer">
           <h2 class="offer__title">Выбирайте свой формат обучения</h2>
           <p class="offer__description">
@@ -277,8 +286,10 @@
             alt=""
           />
         </div>
+      </div>
       </section>
       <section class="courses">
+        <div class="wrapper">
         <h2 class="courses__title">Популярные курсы</h2>
         <ul class="courses__list">
           <li class="courses__item">
@@ -323,6 +334,7 @@
           </li>
         </ul>
         <button class="courses__button button" type="button">Все курсы</button>
+      </div>
       </section>
     </main>
     <aside class="aside">
@@ -334,9 +346,7 @@
               Выберите подходящий тариф и формат обучения, пройдите 2 урока и мы
               подарим вам дополнительные лекции по любому направлению бесплатно!
             </p>
-            <a class="offer__button button button--accent" href="#"
-              >Выбрать тариф</a
-            >
+            <button class="offer__button button button--accent" type="button">Выбрать тариф</button>
           </div>
           <img
             class="banner__cover"
@@ -349,6 +359,7 @@
       </div>
     </aside>
     <footer class="page__footer page-footer">
+      <div class="wrapper">
       <div class="page-footer__row">
         <div class="page-footer__column">
           <a class="page-footer__logo logo" href="#">
@@ -508,6 +519,7 @@
           <a class="page-footer__link" href="#">Публичная оферта</a>
         </div>
       </div>
+    </div>
     </footer>
   </body>
 </html>
