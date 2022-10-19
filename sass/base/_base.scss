@@ -4,6 +4,11 @@ html {
 
 body {
     font-size: 1.6rem;
+    font-family: 'Raleway', Verdana, sans-serif;
+}
+
+h1 {
+    display: none;
 }
 
 h2 {
@@ -11,4 +16,5 @@ h2 {
     font-size: 58px;
     font-weight: 500;
     line-height: 70px;
+    color: $color-text-light;
 }

@@ -4,6 +4,11 @@ html {
 
 body {
   font-size: 1.6rem;
+  font-family: "Raleway", Verdana, sans-serif;
+}
+
+h1 {
+  display: none;
 }
 
 h2 {
@@ -11,17 +16,22 @@ h2 {
   font-size: 58px;
   font-weight: 500;
   line-height: 70px;
+  color: white;
 }
 
 .button {
   width: 230px;
   height: 56px;
+  border-style: none;
+  border-radius: 0 20px 0 20px;
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 1.6rem;
   letter-spacing: 0em;
   text-align: center;
   background: #10B582;
+  color: white;
+  cursor: pointer;
 }
 
 .button--accent {
@@ -29,7 +39,9 @@ h2 {
 }
 
 .page__header {
+  background: #10B582;
   padding-top: 40px;
+  height: 24px;
 }
 
 .page-header_wrapper {
@@ -38,6 +50,7 @@ h2 {
 
 .site-navigation {
   display: flex;
+  margin: auto;
 }
 .site-navigation .site-navigation__item {
   list-style: none;
@@ -51,11 +64,68 @@ h2 {
   text-decoration: none;
   padding: 0 40px;
   cursor: pointer;
+  color: white;
 }
 
 .wrapper {
   max-width: 1170px;
   margin: auto;
+}
+
+.promo {
+  background: #10B582;
+  padding-top: 56px;
+}
+.promo .social {
+  list-style: none;
+}
+.promo .social--vertical {
+  display: flex;
+  flex-direction: column;
+}
+.promo .social--vertical .fb-light {
+  padding-bottom: 30px;
+}
+.promo .promo__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.offer--align-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.offer--align-center {
+  width: 542px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.offer--align-center h2 {
+  text-align: center;
+}
+.offer--align-center .offer__description {
+  color: white;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+  text-align: center;
+}
+
+.offer--align-right {
+  display: flex;
+  flex-direction: column;
+}
+.offer--align-right .offer__link-down {
+  align-self: end;
+  padding-top: 101px;
+  text-decoration: none;
+  writing-mode: sideways-lr;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

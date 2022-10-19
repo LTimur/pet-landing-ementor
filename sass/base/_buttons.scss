@@ -1,16 +1,19 @@
 .button {
     width: 230px;
     height: 56px;
-
+    border-style: none;
+    border-radius: 0 20px 0 20px;
     font-size: 1.6rem;
     font-weight: 500;
     line-height: 1.6rem;
     letter-spacing: 0em;
     text-align: center;
-    background: $color-primary
+    background: $color-primary;
+    color: $color-text-light;
+    cursor: pointer;
 
 }
 
 .button--accent {
-    background: $color-additional;
+    background: $color-secondary;
 }

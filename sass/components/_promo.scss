@@ -1,0 +1,67 @@
+.promo {
+    background: $color-primary;
+    padding-top: 56px;
+    
+    .social {
+        list-style: none;
+    }
+    .social--vertical {
+        display: flex;
+        flex-direction: column;
+        
+        .fb-light {
+            padding-bottom: 30px;
+        }
+    }
+    
+    .promo__content {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.offer--align-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.offer--align-center {
+    width: 542px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2 {
+        text-align: center;
+    }
+
+    .offer__description {
+        color: $color-text-light;
+        // position: absolute;
+        // width: 378px;
+        // height: 48px;
+        // left: 531px;
+        // top: 434px;
+    
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+    
+        /* or 24px */
+        text-align: center;
+    }
+}
+
+.offer--align-right {
+    display: flex;
+    flex-direction: column;
+    .offer__link-down {
+        align-self: end;
+        padding-top: 101px;
+        text-decoration: none;
+        writing-mode: sideways-lr;
+        color: $color-text-light;
+    }
+}

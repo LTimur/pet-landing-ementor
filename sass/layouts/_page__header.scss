@@ -1,5 +1,7 @@
 .page__header {
+    background: $color-primary;
     padding-top: 40px;
+    height: 24px;
 }
 
 .page-header_wrapper {
@@ -8,6 +10,7 @@
 
 .site-navigation {
     display: flex;
+    margin: auto;
     
     .site-navigation__item {
         list-style: none;
@@ -16,12 +19,14 @@
         line-height: 1.6rem;
         letter-spacing: 0em;
         text-align: left;
+        
     }
 
     .site-navigation__link {
         text-decoration: none;
         padding: 0 40px;
         cursor: pointer;
+        color: $color-text-light;
     }
     
 }
