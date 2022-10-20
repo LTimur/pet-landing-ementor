@@ -128,4 +128,32 @@ h2 {
   color: white;
 }
 
+.statistics__list {
+  margin: auto;
+  display: flex;
+  padding-top: 120px;
+}
+.statistics__list .statistics__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.statistics__list .statistics__item .statistics__indicator {
+  color: #10B582;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 100%;
+  text-align: center;
+  padding-bottom: 15px;
+}
+.statistics__list .statistics__item .statistics__description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 120%;
+  text-align: center;
+  color: #353A5A;
+}
+
 /*# sourceMappingURL=style.css.map */
