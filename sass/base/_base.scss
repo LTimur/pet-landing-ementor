@@ -5,6 +5,7 @@ html {
 body {
     font-size: 1.6rem;
     font-family: 'Raleway', Verdana, sans-serif;
+    color: $color-text;
 }
 
 h1 {
@@ -12,7 +13,6 @@ h1 {
 }
 
 h2 {
-    font-family: 'Raleway', Verdana, sans-serif;
     font-size: 58px;
     font-weight: 500;
     line-height: 70px;
