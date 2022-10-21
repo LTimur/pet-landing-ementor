@@ -1,0 +1,40 @@
+.product {
+    background: $color-primary;
+    padding-top: 120px;
+    height: 500px;
+
+    .card__wrapper {
+        display: flex;
+
+        .card__img-column {
+
+            .product__dash {
+                position: relative;
+                left: 30px;
+            }
+
+            .product__img {
+                position: relative;
+                top: -310px;
+            }
+        }
+
+        .card__description-column {
+            padding-left: 100px;
+
+            .offer__title {
+                margin: 0;
+            }
+
+            .offer__description {
+                padding: 20px 0 50px 0;
+                margin: 0;
+                width: 478px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 150%;
+                color: $color-text-light;
+            }
+        }
+    }
+}
