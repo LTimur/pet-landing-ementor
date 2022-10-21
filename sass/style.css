@@ -229,4 +229,53 @@ h2 {
   color: white;
 }
 
+.courses__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.courses__wrapper .courses__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 100%;
+  text-align: center;
+  color: #353A5A;
+}
+.courses__wrapper .courses__list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+}
+.courses__wrapper .courses__list .courses__item {
+  height: 226px;
+  width: 270px;
+  background: #FDFDFD;
+  box-shadow: 5px 5px 30px rgba(101, 101, 101, 0.12);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.courses__wrapper .courses__list .courses__item .courses__img {
+  height: 155px;
+  width: 230px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.courses__wrapper .courses__list .courses__item .courses__link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: #353A5A;
+  text-align: left;
+  padding: 15px 0 0 20px;
+}
+.courses__wrapper .courses__button {
+  margin-top: 60px;
+  align-self: center;
+}
+
 /*# sourceMappingURL=style.css.map */
