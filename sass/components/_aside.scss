@@ -1,0 +1,39 @@
+.aside__content {
+    background-image: url("../img/bg-banner.png");
+    background-repeat: no-repeat;
+    height: 578px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 120px;
+
+    max-width: 1440px;
+
+    .banner {
+        background-image: url("../img/bg-banner.png");
+        background-repeat: no-repeat;
+        height: 578px;
+        width: 100%;
+        margin: 0 auto;
+
+        .banner__content {
+            padding-left: 735px;
+            width: 508px;
+    
+            .offer__title {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 58px;
+                line-height: 120%;
+                color: $color-text;
+                margin: 0;
+                padding-top: 120px;
+            }
+
+            .offer__description {
+                line-height: 150%;
+                padding: 20px 0 50px 0;
+                margin: 0;
+            }
+        }
+    }
+}
