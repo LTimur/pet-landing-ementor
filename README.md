@@ -1,4 +1,5 @@
-Creating a pet landing page.
+Pet landing page for the online educational platform.
+Extracted design from the opensource Figma file.
 
 Stack:
  - HTML (BEM)
