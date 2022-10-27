@@ -8,8 +8,10 @@
     .social--vertical {
         display: flex;
         flex-direction: column;
+        padding: 0 0 74px 0;
+        margin: 0;
         
-        .fb-light {
+        .social__item {
             padding-bottom: 30px;
         }
     }
@@ -23,6 +25,7 @@
 .offer--align-left {
     display: flex;
     flex-direction: column;
+    padding-bottom: 120px;
 }
 
 .offer--align-center {
@@ -30,27 +33,23 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 92px;
 
     h2 {
         text-align: center;
+        margin: 0;
+        padding-top: 40px;
     }
 
     .offer__description {
         color: $color-text-light;
-        // position: absolute;
-        // width: 378px;
-        // height: 48px;
-        // left: 531px;
-        // top: 434px;
-    
-        font-family: 'Raleway';
+        margin: 0;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 150%;
-    
-        /* or 24px */
         text-align: center;
+        padding: 20px 0 50px 0;
     }
 }
 
