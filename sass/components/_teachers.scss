@@ -3,10 +3,12 @@
     padding-top: 120px;
     
     .card__description-column{
-        padding-right: 100px;
+        padding: 65px 100px 0 0;
+        margin: 0;
         
         h2 {
             color: $color-text;
+            margin: 0;
         }
 
         .offer__description {
@@ -15,6 +17,8 @@
             line-height: 24px;
             letter-spacing: 0em;
             text-align: left;
+            margin: 0;
+            padding-top: 20px;
         }
 
         .offer__button {
@@ -41,6 +45,7 @@
                 font-size: 1.4rem;
                 line-height: 130%;
                 text-align: center;
+                padding-top: 15px;
             }
         }
     }
