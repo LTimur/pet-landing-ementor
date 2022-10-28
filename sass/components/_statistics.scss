@@ -7,24 +7,26 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 270px;
+        padding-right: 30px;
 
         .statistics__indicator {
             color: $color-primary;
-            font-style: normal;
             font-weight: 500;
-            font-size: 58px;
+            font-size: 5.8rem;
             line-height: 100%;
-            text-align: center;
             padding-bottom: 15px;
+            margin: auto;
         }
 
         .statistics__description {
-            font-style: normal;
+            color: $color-text;
             font-weight: 400;
             font-size: 1.4rem;
             line-height: 120%;
             text-align: center;
-            color: $color-text;
+            margin: auto;
+            
         }
     }
 }

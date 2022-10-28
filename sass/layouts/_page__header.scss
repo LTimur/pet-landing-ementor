@@ -8,27 +8,35 @@
     display: flex;
 }
 
-.site-navigation {
-    display: flex;
+.main-navigation--vertical {
     margin: auto;
-    
-    .site-navigation__item {
-        list-style: none;
-        font-size: 1.6rem;
-        font-weight: 500;
-        line-height: 1.6rem;
-        letter-spacing: 0em;
-        text-align: left;
-        
-    }
 
-    .site-navigation__link {
-        text-decoration: none;
-        padding: 0 40px;
-        cursor: pointer;
-        color: $color-text-light;
-    }
+    .site-navigation {
+        display: flex;
+        margin: auto;
+        padding: 0;
+        margin-right: -40px;
+        
+        .site-navigation__item {
+            list-style: none;
+            font-size: 1.6rem;
+            font-weight: 500;
+            line-height: 1.6rem;
+            letter-spacing: 0em;
+            text-align: left;
+            
+        }
     
+        .site-navigation__link {
+            text-decoration: none;
+            padding-right: 40px;
+            cursor: pointer;
+            color: $color-text-light;
+        }
+
+    }
 }
+
+
 
 

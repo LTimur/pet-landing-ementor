@@ -52,11 +52,16 @@ h2 {
   display: flex;
 }
 
-.site-navigation {
-  display: flex;
+.main-navigation--vertical {
   margin: auto;
 }
-.site-navigation .site-navigation__item {
+.main-navigation--vertical .site-navigation {
+  display: flex;
+  margin: auto;
+  padding: 0;
+  margin-right: -40px;
+}
+.main-navigation--vertical .site-navigation .site-navigation__item {
   list-style: none;
   font-size: 1.6rem;
   font-weight: 500;
@@ -64,9 +69,9 @@ h2 {
   letter-spacing: 0em;
   text-align: left;
 }
-.site-navigation .site-navigation__link {
+.main-navigation--vertical .site-navigation .site-navigation__link {
   text-decoration: none;
-  padding: 0 40px;
+  padding-right: 40px;
   cursor: pointer;
   color: white;
 }
@@ -225,13 +230,13 @@ h2 {
 }
 .offer--align-center .offer__description {
   color: white;
-  margin: 0;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 24px;
   text-align: center;
   padding: 20px 0 50px 0;
+  width: 385px;
+  margin: 0;
 }
 
 .offer--align-right {
@@ -255,23 +260,24 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 270px;
+  padding-right: 30px;
 }
 .statistics__list .statistics__item .statistics__indicator {
   color: #10B582;
-  font-style: normal;
   font-weight: 500;
-  font-size: 58px;
+  font-size: 5.8rem;
   line-height: 100%;
-  text-align: center;
   padding-bottom: 15px;
+  margin: auto;
 }
 .statistics__list .statistics__item .statistics__description {
-  font-style: normal;
+  color: #353A5A;
   font-weight: 400;
   font-size: 1.4rem;
   line-height: 120%;
   text-align: center;
-  color: #353A5A;
+  margin: auto;
 }
 
 .teachers__wrapper {
