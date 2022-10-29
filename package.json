@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/LTimur/pet-landing-ementor/issues"
   },
-  "homepage": "https://github.com/LTimur/pet-landing-ementor#readme"
+  "homepage": "https://github.com/LTimur/pet-landing-ementor#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
 }

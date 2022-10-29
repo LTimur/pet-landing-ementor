@@ -1,15 +1,11 @@
 html {
   font-size: 10px;
-  margin: 0;
-  padding: 0;
 }
 
 body {
   font-size: 1.6rem;
   font-family: "Raleway", Verdana, sans-serif;
   color: #353A5A;
-  margin: 0;
-  padding: 0;
 }
 
 h1 {
@@ -373,7 +369,6 @@ h2 {
 .courses__wrapper .courses__list {
   list-style: none;
   display: flex;
-  margin: 0;
   padding: 0;
   justify-content: space-between;
 }
