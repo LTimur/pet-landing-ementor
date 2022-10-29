@@ -55,7 +55,7 @@ h2 {
   display: flex;
   margin: auto;
   padding: 0;
-  margin-right: -40px;
+  gap: 40px;
 }
 .main-navigation--vertical .site-navigation .site-navigation__item {
   list-style: none;
@@ -67,7 +67,6 @@ h2 {
 }
 .main-navigation--vertical .site-navigation .site-navigation__link {
   text-decoration: none;
-  padding-right: 40px;
   cursor: pointer;
   color: white;
 }
@@ -196,10 +195,7 @@ h2 {
   display: flex;
   flex-direction: column;
   padding: 0 0 74px 0;
-  margin: 0;
-}
-.promo .social--vertical .social__item {
-  padding-bottom: 30px;
+  gap: 30px;
 }
 .promo .promo__content {
   display: flex;
@@ -251,13 +247,13 @@ h2 {
   margin: auto;
   display: flex;
   padding-top: 120px;
+  gap: 30px;
 }
 .statistics__list .statistics__item {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 270px;
-  padding-right: 30px;
 }
 .statistics__list .statistics__item .statistics__indicator {
   color: #10B582;
@@ -265,7 +261,7 @@ h2 {
   font-size: 5.8rem;
   line-height: 100%;
   padding-bottom: 15px;
-  margin: auto;
+  margin: 0 auto;
 }
 .statistics__list .statistics__item .statistics__description {
   color: #353A5A;

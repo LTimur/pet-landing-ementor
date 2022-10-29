@@ -15,7 +15,7 @@
         display: flex;
         margin: auto;
         padding: 0;
-        margin-right: -40px;
+        gap: 40px;
         
         .site-navigation__item {
             list-style: none;
@@ -29,7 +29,6 @@
     
         .site-navigation__link {
             text-decoration: none;
-            padding-right: 40px;
             cursor: pointer;
             color: $color-text-light;
         }

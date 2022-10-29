@@ -2,13 +2,13 @@
     margin: auto;
     display: flex;
     padding-top: 120px;
+    gap: 30px;
 
     .statistics__item {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 270px;
-        padding-right: 30px;
 
         .statistics__indicator {
             color: $color-primary;
@@ -16,7 +16,7 @@
             font-size: 5.8rem;
             line-height: 100%;
             padding-bottom: 15px;
-            margin: auto;
+            margin: 0 auto;
         }
 
         .statistics__description {
