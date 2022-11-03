@@ -2,3 +2,13 @@
     max-width: $content-width;
     margin: auto;
 }
+
+@media only screen and (min-width: $mobile-small-width) and (max-width: $mobile-big-width), (orientation: portrait) {
+
+    .wrapper {
+        // min-width: $mobile-small-width;
+        // max-width: $mobile-big-width;
+
+        width: 95%;
+    }
+}

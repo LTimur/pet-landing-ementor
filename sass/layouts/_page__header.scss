@@ -36,6 +36,34 @@
     }
 }
 
+@media only screen and (min-width: $mobile-small-width) and (max-width: $mobile-big-width), (orientation: portrait) {
+    
+    .page__header {
+        background: $color-primary;
+        padding-top: 40px;
+        height: fit-content
+    }
+    
+    .page-header_wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .main-navigation--vertical {
+        margin: 0;
+        .site-navigation {
+            gap: 10px;
+            flex-wrap: wrap;
+            margin: 0 auto;
+            flex-direction: column;
+            
+            align-content: end;
+            align-items: end;
+            padding-right: 30px;
+        }
+    }
 
+    
 
-
+    
+}

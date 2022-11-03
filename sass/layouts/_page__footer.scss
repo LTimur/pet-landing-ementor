@@ -6,8 +6,6 @@
 
     .page-footer__row {
         display: flex;
-        flex-direction: row;
-        
 
         .page-footer__column{
             
@@ -133,4 +131,11 @@
 
     }
 
+}
+
+@media only screen and (min-width: $mobile-small-width) and (max-width: $mobile-big-width), (orientation: portrait) {
+
+    .page-footer__navigation, .page-footer__row {
+        flex-direction: column;
+    }
 }
